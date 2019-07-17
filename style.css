@@ -1,0 +1,562 @@
+
+
+header{
+	height: 100px;
+	background:#F72211;
+	width: 97%;
+	margin: 0 auto;
+	z-index: 2;
+	
+
+}
+header p{
+	color: white;
+	padding: 50px 0 0 15px;
+}
+header h1{
+	font-size: 80px;
+	color: white;
+	text-align:center;
+	font-weight: 900;
+}
+header a{
+ float: right;
+ padding: 50px 20px 0 0;
+
+}
+header .btn{
+	color: red;
+	margin:45px 10px 0 0;
+
+}
+header .btn1{
+	color: white;
+	font-weight: 900;
+}
+
+.navbar{
+	height: 51px;
+	background:white;
+	z-index: 2;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+nav li{
+	padding:0 15px 0 15px;	
+}
+.item-last{
+	border: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+      font-size: 19px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:red;
+}
+
+.form-control{
+	border: none;
+
+}
+
+/*STYLING MAIN*/
+main{
+	margin-top: 20px;
+}
+
+/*STYLING OF FIRST ASIDE*/
+
+.side-content .title-link{
+      font-size: 18px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+.side-content .title-link:hover{
+	text-decoration: underline red;
+
+}
+.side-content p{
+ 
+ font-size: 15px;
+ 	padding-bottom:5px;
+
+}
+
+
+/*STYLING OF MIDDLE CONTENT*/
+
+
+.md-title-link{
+	 font-size: 22px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.md-title-link:hover{
+	text-decoration: underline red;
+	color: black;
+}
+.middle-small img{
+	width: 135px;
+	height: 90px;
+}
+.middle-text a{
+		 font-size: 17px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.middle-text a:hover{
+
+	text-decoration: underline red;
+	color: black;
+
+}
+.middle-text p{
+
+	font-size: 15px;
+
+}
+.middle-text{
+	padding-left: 10px;
+}
+
+
+
+
+/*STYLING OF SECOND ASIDE*/
+
+
+
+.aside-three   a   img{
+	    width: 127px;
+    height: 63px;
+
+}
+.aside-three-text{
+	padding-left: 5px;
+}
+.aside-three-text a{
+	font-size: 17px;
+	color: black;	
+	font-weight: 900;
+	width: 100%;
+text-decoration: none;
+}
+
+.aside-three-text a:hover{
+ 
+ color: red;
+
+}
+.aside-three-text p{
+	font-size: 14px;
+	    width: 100%;
+}
+.aside-three-small{
+	margin-top: 10px;
+}
+.aside-three-small img{
+width: 135px;
+	height: 90px;
+}
+.about{
+font-size: 16px;
+color: rgb(3,3,3,0.4);	
+}
+
+
+.aside-three-content a img{
+	width: 342px;
+	height: 228px;
+	margin-top: 10px;
+} 
+.aside-title-link{
+	width: 70%;
+      font-size: 18px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+.aside-three-content p{
+	width: 100%;
+	font-size: 15px;
+
+}
+.aside-title-link:hover{
+	text-decoration: underline red;
+
+}
+.banner{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+.banner img{
+	width: 29px;
+	height: 28px
+
+}
+.btn-secondary{
+	width: 20%;
+	
+}
+.banner p{
+	font-size: 16px;
+	width: 50%;
+	padding-left: 10px;
+}
+button.btn.btn-secondary{
+	    font-size: 10px;
+}
+
+
+/*STYLING SECOND SECTION*/
+
+.second-content{
+	margin-top: 100px;
+}
+.astro-link a{
+	color: black;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	text-decoration: none;
+}
+.astro-link:hover{
+	background: #DBDCDD;
+}
+.first-col img{
+	width: 290px;
+	height: 387px;
+}
+
+
+.rest a img{
+	width: 434px;
+	height: 290px;
+}
+.devide-one{
+	padding-top: 25px;
+}
+.devide{
+margin-top: 20px;
+}
+ .nil-link .nil-first-link {
+    color: red;
+    padding-left: 20px;
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+}
+.nil-link .nil-second-link{
+	      font-size: 18px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+.nil-link .nil-second-link:hover{
+	text-decoration:underline red;
+}
+
+.mid-rest{
+	margin-top: 20px;
+}
+.rest-same a img{
+	width: 434px;
+	height: 290px;
+}
+
+
+.cosmo-link{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nil-third-link{
+	color: white;
+	display: block;
+	background:red;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: 900;
+	text-decoration: none;
+}
+.nil-fourth-link{
+	color: red;
+	display: block;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: 900;
+	text-decoration: none;
+
+}
+
+.nil-fifth-link{
+	   font-size: 18px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+.nil-fifth-link:hover{
+color: black;
+	text-decoration:underline red;
+
+}
+
+
+/*STYLING THIRD CONTENT*/
+.third-content-middle{
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+.third-content-middle img{
+	width: 29px;
+	height: 28px;
+
+}
+.third-content-middle p{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 5px; 
+}
+.more-news img{
+	    width: 260px;
+    height: 193px;
+}
+.more-news-text a{
+
+	 font-size: 22px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+    line-height: 1;
+}
+.more-news-text a:hover{
+	text-decoration: underline red;
+	color: black;
+}
+
+/*STYLING FOURTH CONTENT*/
+
+.bigger-news img{
+    width: 349px;
+    height: 264px;
+}
+
+.bigger-news-link a{
+	 font-size: 22px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+	padding-top:5px;
+	padding-bottom:5px;
+    line-height: 1;
+}
+.bigger-news-link a:hover{
+	text-decoration: underline red;
+	color: black;
+}
+.lion-devide{
+	margin-top: 79px;
+}
+.lion-first{
+	margin-top: 50px;
+}
+.lion-second{
+    margin-top: 109px;
+}
+
+/*STYLING OF FIFTH CONTENT*/
+
+.fifth-content-link a{
+	  color: red;
+    
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.last-small{
+    margin-top: 77px;
+}
+.last-small-two {
+    margin-top: 135px;
+}
+
+.another-content-link a{
+   color: red;
+    
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+
+
+}
+
+
+
+/*STYLING OF SIXTH CONTENT*/
+
+.two-links{
+	margin-top: 50px;
+}
+.sixth-content{
+	margin-top: 50px;
+}
+.book1{
+	position: relative;
+}
+.book2{
+	position:absolute;
+	bottom:-16px;
+	left: 126px;
+}
+.before-end{
+	font-size: 20px;
+	font-weight: 900;
+
+}
+.before-end-two{
+font-size: 15px;
+}
+.before-end-three{
+	font-size: 15px;
+}
+.btn-danger{
+	background-color:red;
+}
+.before-end-text{
+	width: 50%;
+	padding-left: 5px;
+}
+.background-img{
+	width: 50%;
+	height: 300px;
+	background:url("image/background.gif");
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*STYLING FOOTER*/
+
+footer{
+margin-top: 50px;
+}
+.footer-title{
+	padding-right: 50px;
+}
+.footer-title h1{
+	font-size: 50px;
+	color: red;
+	font-weight: 900;
+}
+.footer-title p{
+    font-size: 14px;
+    padding-top: 31px;
+
+}
+.icons{
+	padding-top: 20px;
+}
+.icons i{
+ padding-left: 20px;
+
+} 
+.first-footer-links a{
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+.second-footer-links a{
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+.third-footer-links a{
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+.first-footer-links a:hover{
+	color: black;
+   
+
+}
+.second-footer-links a:hover{
+	color: black;
+}
+.third-footer-links a:hover{
+	color:black;
+
+}
+.last-footer-links{
+	padding-left: 125px;
+}
+.second-last{
+	font-size: 15px;
+  color: grey;
+}
+.second-last  a{
+	font-size: 15px;
+  color: grey;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.second-last  a:hover{
+	color: black;
+}
+.second-last-end a{
+	font-size: 15px;
+  color: grey;
+  text-decoration: none;
+ 
+}
+.second-last-end a:hover{
+	color: black;
+}
+.second-last-end .rom{
+	padding-left: 50px;
+}
+
+@media(max-width: 1200px){
+	header{
+		display: none;
+	}
+	.last-small{
+    margin-top: 0;
+}
+.last-small-two {
+    margin-top: 0;
+}
+}
