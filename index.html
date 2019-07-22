@@ -7,7 +7,7 @@
     <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/starter-template/">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 
    <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
@@ -146,45 +146,44 @@
 <!-- MAIN -->
 
 
-    <main role="main" class="container-fluid">
+    <main role="main" class="container-fluid pt-1 px-4 ">
       <section class="row">
 
    <!--      ASIDE FIRST -->
 
-      <article class="col-lg-3 col-md-6 col-sm-12 first order-2 order-md-1 ">
-        <p class="about">FEATURED STORIES</p>
-        <div class="d-flex flex-column side-content mobile">
+      <article class="col-lg-3 col-md-6 col-sm-12 first order-1 order-md-2 card border-0 card-body py-2">
+        <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">FEATURED STORIES</p>
+        <div class="d-flex flex-column side-content py-2">
           <a href="#">
-          <img class="img-fluid mobile-first"  src="image/first-pic.png" alt="">
+          <img class="card-img-top"  src="image/first-pic.png" alt="">
            </a>
-          <a class="title-link" href="#">The Newsweek Momentum Awards</a>
+          <a class="card-title pb-1 pt-3" href="#">The Newsweek Momentum Awards</a>
+           <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+        </div>
+          <div class="d-flex flex-column side-content py-2">
+          <a href="#">
+          <img class="card-img-top" src="image/korea.jpg" alt="Korea">
+           </a>
+          <a class="card-title pb-1 pt-3" href="#">The Newsweek Momentum Awards</a>
+           <p  class="card-text">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+        </div>
+
+
+          <div class="d-flex flex-column side-content py-2 ">
+          <a href="#">
+         <img class="card-img-top" src="image/korea.jpg" alt="Korea">
+           </a>
+          <a class="card-title pb-1 pt-3" href="#">The Newsweek Momentum Awards</a>
            <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
 
         </div>
-          <div class="d-flex flex-column side-content">
+
+          <div class="d-flex flex-column side-content py-2">
           <a href="#">
-          <img class="img-fluid" src="image/korea.jpg" alt="Korea">
+         <img class="card-img-top" src="image/korea.jpg" alt="Korea">
            </a>
-          <a class="title-link" href="#">The Newsweek Momentum Awards</a>
-           <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
-
-        </div>
-
-          <div class="d-flex flex-column side-content">
-          <a href="#">
-         <img class="img-fluid" src="image/korea.jpg" alt="Korea">
-           </a>
-          <a class="title-link" href="#">The Newsweek Momentum Awards</a>
-           <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
-
-        </div>
-
-          <div class="d-flex flex-column side-content">
-          <a href="#">
-         <img class="img-fluid" src="image/korea.jpg" alt="Korea">
-           </a>
-          <a class="title-link" href="#">The Newsweek Momentum Awards</a>
-           <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+          <a class="card-title pb-1 pt-3" href="#">The Newsweek Momentum Awards</a>
+           <p class="card-text">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
 
         </div>
 
@@ -198,115 +197,66 @@
     <!-- MIDDLE CONTENT -->
 
     <article class="col-lg-5 col-md-6 col-sm-12 second order-1 order-md-2">
-       <p class="about">TOP STORIES</p>
+       <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">TOP STORIES</p>
       <article class="d-flex flex-column mx-auto middle trump">
         <a href="#">
-        <img class="img-fluid" src="image/trump.jpg" alt="Donald Trump">
+        <img class="card-img-top" src="image/trump.jpg" alt="Donald Trump">
         </a>
         <a class="md-title-link" href="#">Justice Department Decides Not to Charge Officer in Eric Garner Death</a>
-        <p>"If Eric Garner's case were to happen at the border, every politician would have been rallying for him," said New York civil rights activist Hawk Newsome.</p>
+        <p class="card-text">"If Eric Garner's case were to happen at the border, every politician would have been rallying for him," said New York civil rights activist Hawk Newsome.</p>
       </article>
 
-      <p class="about">MORE STORIES</p>
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
-
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
-
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
+      <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">MORE STORIES</p>
 
 
-      <article class="d-flex flex-row middle-small">
+      <div class="media">
+      <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+      <div class="media-body">
+      <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+      <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+      </div>
+      </div>
 
-        <img class="img-fluid" src="image/china.jpg" alt="News">
+  <div class="media">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+    <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+  </div>
+  </div>
 
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
+<div class="media">
+<img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+<div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+<p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+</div>
+</div>
 
-        </div>
+<div class="media">
+<img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+<div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+<p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+</div>
+</div>
 
-      </article>
+<div class="media">
+<img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+<div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+<p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+</div>
+</div>
 
+<div class="media">
+<img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+<div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+<p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez.</p>
+</div>
+</div>
 
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row middle-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column middle-text">
-          <a href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
-          <p>Just four House Republicans and the chamber's sole independent joined 235 Democrats in voting to denounce President Donald Trump's racist comments against four congresswomen, including Alexandria Ocasio-Cortez</p>
-
-        </div>
-      </article>
 
 
 
@@ -318,193 +268,144 @@
 
 <article class="col-lg-4  order-1 order-md-2">
   <article class="col-md-12 col-sm-12">
-  <p class="about">OPINIONS</p>
-  <article class="d-flex flex-row aside-three">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">OPINIONS</p>
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
+  </div>
   </div>
 
-  </article>
-
-
-    <article class="d-flex flex-row aside-three">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
+  </div>
   </div>
 
-  </article>
-
-
-    <article class="d-flex flex-row aside-three">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
+  </div>
   </div>
 
-  </article>
-
-
-    <article class="d-flex flex-row aside-three ">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
+  </div>
   </div>
 
-  </article>
-
-
-    <article class="d-flex flex-row aside-three">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
+  </div>
   </div>
 
-  </article>
-
-
-    <article class="d-flex flex-row aside-three">
-    <a href="#">
-  <img class="img-fluid" src="image/rounded.png" alt="Opinions">
-  </a>
-  <div class="d-flex flex-column aside-three-text">
-    <a href="#">The Pentagon Has More Money Than It Can Spend, Thanks to GOP and Democrats</a>
-    <p>BY BEN FREEMAN AND WILLIAM D. HARTUNG</p>
-
+  <div class="media">
+  <img class="mr-3" src="image/rounded.png" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+  <p>BY PETER ROFF</p>
   </div>
-  </article>
+  </div>
 
 </article>
 
 
 <article>
-<p class="about">LATEST NEWS</p>
+<p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">LATEST NEWS</p>
 
 <article class="col-md-12 col-sm-12">
- <article class="d-flex flex-row aside-three-small">
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-        <img class="img-fluid" src="image/china.jpg" alt="News">
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-        </div>
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-      </article>
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-      <article class="d-flex flex-row aside-three-small">
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row aside-three-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row aside-three-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row aside-three-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row aside-three-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
-
-
-      <article class="d-flex flex-row aside-three-small">
-
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-
-        </div>
-
-      </article>
+  <div class="media py-1">
+  <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+  <div class="media-body">
+  <a class="mt-0" href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
+  </div>
+  </div>
 
 </article>
 </article>
 
 <article class="col-md-12 col-sm-12">
-         <article class="d-flex flex-column aside-three-content">
-          <a href="#">
-       <img class="img-fluid" src="image/korea.jpg" alt="Korea">
-           </a>
-           <a class="aside-title-link" href="#">Finnish innovation for a brighter future</a>
-           <p>Finland is trust and quality; Finland is collaboration and innovation; Finland is creating Nordic solutions to global problems; Finland is the future. Find out how Finnish innovation is transforming an array of global industries, from smart healthcare to cloud technology</p>
-
-        </article>
+  <div class="d-flex flex-column side-content py-2">
+  <a href="#">
+  <img class="card-img-top" src="image/korea.jpg" alt="Korea">
+   </a>
+  <a class="card-title pb-1 pt-3" href="#">The Newsweek Momentum Awards</a>
+   <p  class="card-text">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+</div>
 
      <!-- BANNER -->
 
       <article class="d-flex flex-column banner">
-        <div class="d-flex flex-row sign">
-        <img class="img-fluid" src="image/logo.png" alt="logo">
-        <p>SIGN UP FOR OUR NEWSLETTER</p>
-        </div>
-      <button type="button" class="btn btn-secondary">SIGN UP</button>
+        <div style="width: 16rem" class="card mx-auto">
+             <div class="card-body bg-light py-2 px-4 ">
+               <div
+                 class="d-flex justify-content-around align-items-center my-2"
+               >
+            <img class="logo" src="image/logo.png" alt="Logo">
+                 <h5 class="card-title text-uppercase mb-0">
+                   Sign up for our newsletter
+                 </h5>
+               </div>
+
+               <button
+                 class="btn btn-secondary text-uppercase px-4 my-2 rounded-0">
+                 sign up >
+               </button>
+             </div>
+           </div>
+
       </article>
 
 
@@ -531,211 +432,309 @@
       <section class="row second-content">
         <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="row">
-         <div class="third-content-middle d-flex flex-row ml-auto mr-auto">
-                  <img src="image/logo.png" alt="logo">
-                  <p class="title-tag">IN THE MAGAZINE</p>
+         <div class="third-content-middle d-flex flex-row ml-auto mr-auto my-4">
+                  <img class="logo" src="image/logo.png" alt="logo">
+                  <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">IN THE MAGAZINE</p>
                 </div>
         </div>
 </div>
-        <article class="col-lg-3 col-md-3 col-sm-12 first-col">
-          <article class="second-mid">
-          <a href="#">
-          <img class="img-fluid" src="image/astronaut.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-column astro-link">
-              <a href="#">SEE ALL FEATURES</a>
-            </div>
-            </article>
+
+       <!-- in the magazine header  -->
+
+       <!-- In the magazine card  -->
+       <article class="row border-top pt-3 mt-2">
+         <div class="col-md-3 card border-0 ">
+           <img
+             src="image/astronaut.jpg"
+             class="card-img-top"
+             alt="Astronaut"
+           />
+           <div class="d-flex">
+          <a class="card-link" href="#">SEE ALL FEATURES</a>
+           </div>
+         </div>
+
+         <div class="col-md-3 card border-0">
+           <img
+             src="image/nil.jpg"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="d-flex">
+             <h6
+               class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+             >
+            cover
+             </h6>
+             <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+              health
+             </h6>
+           </div>
+
+           <div class="card-body px-0 py-1">
+             <h5>
+               <a href="#">
+                 In Sri Lanka, Bombings End a Short Spell of Peace
+               </a>
+             </h5>
+           </div>
+         </div>
+
+         <div class="col-md-3 card border-0 ">
+           <img
+             src="image/nil.jpg"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="d-flex">
+             <h6
+               class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+             >
+            features
+             </h6>
+             <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+              health
+             </h6>
+           </div>
+
+           <div class="card-body px-0 py-1">
+             <h5>
+               <a href="#">
+                 Thomas Keller Isn’t Trying to Reinvent Fine Dining
+               </a>
+             </h5>
+           </div>
+         </div>
+
+         <div class="col-md-3 card border-0 pt-6">
+           <img
+             src="image/nil.jpg"
+             class="card-img-top"
+             alt="..."
+           />
+           <div class="d-flex">
+             <h6
+               class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+             >
+            cover
+             </h6>
+             <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+              health
+             </h6>
+           </div>
+
+           <div class="card-body px-0 py-1">
+             <h5>
+               <a href="#">
+                 In Sri Lanka, Bombings End a Short Spell of Peace
+               </a>
+             </h5>
+           </div>
+         </div>
+
+       </article>
 
 
-                  <article class="second-mid rest devide-one">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-column nil-link">
-               <a class="nil-first-link" href="#">CULTURE</a>
-              <a class="nil-second-link" href="#">SEE ALL FEATURES</a>
-            </div>
-            </article>
 
-        </article>
+   <!--  Magazine Part 2 -->
+   <article class="row border-top pt-3 mt-2">
+     <div class="col-md-3 card border-0 ">
+       <img
+         src="image/nil.jpg"
+         class="card-img-top"
+         alt="..."
+       />
+       <div class="d-flex">
+         <h6
+           class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+         >
+        cover
+         </h6>
+         <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+          health
+         </h6>
+       </div>
 
-        <article class="col-lg-3 col-md-3 col-sm-12 second-col">
+       <div class="card-body px-0 py-1">
+         <h5>
+           <a href="#">
+             In Sri Lanka, Bombings End a Short Spell of Peace
+           </a>
+         </h5>
+       </div>
+     </div>
 
-              <article class="second-mid rest">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </article>
+     <div class="col-md-3 card border-0 ">
+       <img
+         src="image/nil.jpg"
+         class="card-img-top"
+         alt="..."
+       />
+       <div class="d-flex">
+         <h6
+           class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+         >
+        cover
+         </h6>
+         <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+          health
+         </h6>
+       </div>
+
+       <div class="card-body px-0 py-1">
+         <h5>
+           <a href="#">
+             In Sri Lanka, Bombings End a Short Spell of Peace
+           </a>
+         </h5>
+       </div>
+     </div>
+
+     <div class="col-md-3 card border-0 ">
+       <img
+         src="image/nil.jpg"
+         class="card-img-top"
+         alt="..."
+       />
+       <div class="d-flex">
+         <h6
+           class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+         >
+        features
+         </h6>
+         <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+          health
+         </h6>
+       </div>
+
+       <div class="card-body px-0 py-1">
+         <h5>
+           <a href="#">
+             Thomas Keller Isn’t Trying to Reinvent Fine Dining
+           </a>
+         </h5>
+       </div>
+     </div>
+
+     <div class="col-md-3 card border-0 ">
+       <img
+         src="image/nil.jpg"
+         class="card-img-top"
+         alt="..."
+       />
+       <div class="d-flex">
+         <h6
+           class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+         >
+        cover
+         </h6>
+         <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+          health
+         </h6>
+       </div>
+
+       <div class="card-body px-0 py-1">
+         <h5>
+           <a href="#">
+             In Sri Lanka, Bombings End a Short Spell of Peace
+           </a>
+         </h5>
+       </div>
+     </div>
+
+   </article>
 
 
-                 <article class="second-mid rest devide">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </article>
-
-        </article>
 
 
-
-        <article class="col-lg-3 col-md-3 col-sm-12 third-col">
-                <article class="second-mid rest">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </article>
-                  <article class="second-mid rest devide">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </article>
-
-        </article>
-        <article class="col-lg-3 col-md-3 col-sm-12 fourth-col">
-
-   <article class="second-mid rest">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </article>
-                  <div class="second-mid rest devide">
-          <a href="#">
-          <img class="img-fluid " src="image/nil.jpg" alt="Space">
-          </a>
-            <div class="d-flex flex-row cosmo-link">
-               <a class="nil-third-link" href="#">CULTURE</a>
-                <a  class="nil-fourth-link" href="#">TECH &amp; SCIENCE</a>
-            </div>
-             <div>
-              <a class="nil-fifth-link" href="#">Apollo Astronauts Reflect on JFK's Challenge and the Future of Space Travel</a>
-              </div>
-            </div>
-
-        </article>
 
       </section>
 
 
 
       <section class="row third-content">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 my-2">
         <div class="row">
          <div class="third-content-middle d-flex flex-row ml-auto mr-auto">
-                  <img src="image/logo.png" alt="logo">
-                  <p class="title-tag">EDITOR'S PICK</p>
+                  <img class="logo" src="image/logo.png" alt="logo">
+                  <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">EDITOR'S PICK</p>
                 </div>
         </div>
 </div>
-      <article class="col-lg-3 col-md-6 col-sm-12">
-        <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
+      <article class="col-lg-3 col-md-6 col-sm-12 card">
+        <article class="more-news mb-2">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
         <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
         </div>
         </article>
+
+        <article class="more-news">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+        <div class="d-flex flex-column more-news-text">
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+        </div>
+        </article>
+
+      </article>
+
+      <article class="col-lg-3 col-md-6 col-sm-12 card">
+        <article class="more-news mb-2">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+        <div class="d-flex flex-column more-news-text">
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+        </div>
+        </article>
+
+        <article class="more-news">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+        <div class="d-flex flex-column more-news-text">
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+        </div>
+        </article>
+
+      </article>
+
+      <article class="col-lg-3 col-md-6 col-sm-12 card">
+        <article class="more-news mb-2">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+        <div class="d-flex flex-column more-news-text">
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+        </div>
+        </article>
+
+
+        <article class="more-news">
+        <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+        <div class="d-flex flex-column more-news-text">
+          <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+          <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+        </div>
+        </article>
+      </article>
+
+<article class="col-lg-3 col-md-6 col-sm-12 card">
+
+  <article class="more-news mb-2">
+  <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+  <div class="d-flex flex-column more-news-text">
+    <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+    <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+  </div>
+  </article>
 
   <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-
-      </article>
-
-      <article class="col-lg-3 col-md-6 col-sm-12">
-         <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-
-         <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-
-      </article>
-
-      <article class="col-lg-3 col-md-6 col-sm-12">
-            <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-
-
-            <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-      </article>
-
-<article class="col-lg-3 col-md-6 col-sm-12">
-
-      <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
-
-            <article class="more-news">
-        <img class="img-fluid" src="image/pic.jpg" alt="Photographing">
-        <div class="d-flex flex-column more-news-text">
-          <a href="#">Trump Administration Announces New Abortion Restrictions</a>
-          <p>The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
-        </div>
-        </article>
+  <img class="card-img-top" src="image/pic.jpg" alt="Photographing">
+  <div class="d-flex flex-column more-news-text">
+    <a class="card-link py-1" href="#">Trump Administration Announces New Abortion Restrictions</a>
+    <p class="card-text">The Trump administration said Monday that family planning clinics that receive Title X funding can no longer refer women for abortions.</p>
+  </div>
+  </article>
 
 </article>
 
@@ -744,65 +743,64 @@
 
 
 <section class="row fourth-content">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 my-4">
         <div class="row">
          <div class="third-content-middle d-flex flex-row ml-auto mr-auto">
-                  <img src="image/logo.png" alt="logo">
-                  <p class="title-tag">FEATURED SLIDESHOWS</p>
+                  <img class="logo" src="image/logo.png" alt="logo">
+                  <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">FEATURED SLIDESHOWS</p>
                 </div>
         </div>
 </div>
 
-  <article class="col-lg-4 col-md-4 col-sm-12">
-    <article class="bigger-news d-flex flex-column">
-      <img   class="img-fluid"   src="image/lions.jpg" alt="Lions">
+  <article class="col-lg-4 col-md-4 col-sm-12 ">
+    <article class="bigger-news d-flex flex-column card mb-2">
+      <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
       <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
       </div>
     </article>
 
-     <article class="bigger-news d-flex flex-column lion-devide">
-      <img   class="img-fluid"   src="image/lions.jpg" alt="Lions">
+    <article class="bigger-news d-flex flex-column card">
+      <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
       <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
       </div>
     </article>
-
 
   </article>
 
     <article class="col-lg-4 col-md-4 col-sm-12">
-    <article class="bigger-news d-flex flex-column">
-      <img   class="img-fluid"  src="image/lions.jpg" alt="Lions">
-      <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+      <article class="bigger-news d-flex flex-column card mb-2">
+        <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
+        <div class="bigger-news-link two">
+          <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        </div>
+      </article>
 
-     <article class="bigger-news d-flex flex-column lion-devide">
-      <img  class="img-fluid"  src="image/lions.jpg" alt="Lions">
-      <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+      <article class="bigger-news d-flex flex-column card">
+        <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
+        <div class="bigger-news-link two">
+          <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        </div>
+      </article>
 
 
   </article>
 
 
-    <article class="col-lg-4 col-md-4 col-sm-12">
-    <article class="bigger-news d-flex flex-column">
-      <img class="img-fluid"  src="image/lions.jpg" alt="Lions">
-      <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+    <article class="col-lg-4 col-md-4 col-sm-12 ">
+      <article class="bigger-news d-flex flex-column card mb-2">
+        <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
+        <div class="bigger-news-link two">
+          <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        </div>
+      </article>
 
-     <article class="bigger-news d-flex flex-column lion-devide">
-      <img class="img-fluid" src="image/lions.jpg" alt="Lions">
-      <div class="bigger-news-link two">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-          </div>
+      <article class="bigger-news d-flex flex-column card">
+        <img   class="card-img-top"   src="image/lions.jpg" alt="Lions">
+        <div class="bigger-news-link two">
+          <a class="card-link mt-2" href="#">The Revamped Oscar de la Renta Is All the Rage</a>
+        </div>
       </article>
 
 
@@ -815,282 +813,183 @@
   <div class="col-lg-12 col-md-12 col-sm-12">
   <div class="row">
    <div class="third-content-middle d-flex flex-row ml-auto mr-auto">
-            <img src="image/logo.png" alt="logo">
-            <p class="title-tag">FEATURED SLIDESHOWS</p>
+            <img class="logo" src="image/logo.png" alt="logo">
+            <p class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">FEATURED SLIDESHOWS</p>
           </div>
   </div>
 </div>
+<article class="col-md-6 col-lg-4 card border-0">
+           <img
+             src="image/ann.jpg"
+             class="card-img-top"
+             alt="Ann"
+           />
 
-  <article class="col-lg-4 col-md-4 col-sm-12 first-column">
+           <div class="card-body px-0 py-2">
+             <h4>
+               <a href="#">
+                 The Revamped Oscar de la Renta Is All the Rage
+               </a>
+             </h4>
+           </div>
+         </article>
 
+         <article class="col-md-6 col-lg-4 card border-0">
+                    <img
+                      src="image/ann.jpg"
+                      class="card-img-top"
+                      alt="Ann"
+                    />
 
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-        <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-        <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-        <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-        <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-        <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-</article>
-
- <article class="col-lg-8 col-md-8 col-sm-12 first-column">
+                    <div class="card-body px-0 py-2">
+                      <h4>
+                        <a href="#">
+                          The Revamped Oscar de la Renta Is All the Rage
+                        </a>
+                      </h4>
+                    </div>
+                  </article>
 
 
-<article class="d-flex flex-row with-sidebar">
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+         <article class="col-md-12 col-lg-4 mb-2">
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-    <div class="d-flex flex-column devider">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
-
-    </article>
+           <div class="media">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
+         </article>
 
 
+<!-- SECOND ROW -->
+
+<article class="col-md-6 col-lg-4 card border-0">
+           <img
+             src="image/ann.jpg"
+             class="card-img-top"
+             alt="Ann"
+           />
+
+           <div class="card-body px-0 py-2">
+             <h4>
+               <a href="#">
+                 The Revamped Oscar de la Renta Is All the Rage
+               </a>
+             </h4>
+           </div>
+         </article>
+
+         <article class="col-md-6 col-lg-4 card border-0">
+                    <img
+                      src="image/ann.jpg"
+                      class="card-img-top"
+                      alt="Ann"
+                    />
+
+                    <div class="card-body px-0 py-2">
+                      <h4>
+                        <a href="#">
+                          The Revamped Oscar de la Renta Is All the Rage
+                        </a>
+                      </h4>
+                    </div>
+                  </article>
 
 
-<article class="d-flex flex-row with-sidebar">
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+         <article class="col-md-12 col-lg-4 mb-2 ">
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-    <div class="d-flex flex-column devider ">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
+           <div class="media">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
+         </article>
 
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
+<!-- THIRD ROW -->
 
-    </article>
+<article class="col-md-6 col-lg-4 card border-0">
+           <img
+             src="image/ann.jpg"
+             class="card-img-top"
+             alt="Ann"
+           />
 
+           <div class="card-body px-0 py-2">
+             <h4>
+               <a href="#">
+                 The Revamped Oscar de la Renta Is All the Rage
+               </a>
+             </h4>
+           </div>
+         </article>
 
+         <article class="col-md-6 col-lg-4 card border-0">
+                    <img
+                      src="image/ann.jpg"
+                      class="card-img-top"
+                      alt="Ann"
+                    />
 
-
-<article class="d-flex flex-row with-sidebar">
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-    <div class="d-flex flex-column devider">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
-
-    </article>
+                    <div class="card-body px-0 py-2">
+                      <h4>
+                        <a  href="#">
+                          The Revamped Oscar de la Renta Is All the Rage
+                        </a>
+                      </h4>
+                    </div>
+                  </article>
 
 
+         <article class="col-md-12 mb-2">
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-<article class="d-flex flex-row with-sidebar">
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
+           <div class="media pb-2">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
 
-    <div class="d-flex flex-column devider">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
-
-    </article>
-
-
-
-
-<article class="d-flex flex-row  with-sidebar">
-
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-    <div class="d-flex flex-column devider">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
-
-    </article>
-
-
-
-
-<article class="d-flex flex-row  with-sidebar">
-    <article class="bigger-news d-flex flex-column woman-pic">
-      <img   class="img-fluid"   src="image/ann.jpg" alt="Lions">
-      <div class="bigger-news-link">
-        <a href="#">The Revamped Oscar de la Renta Is All the Rage</a>
-      </div>
-    </article>
-
-    <div class="d-flex flex-column devider">
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-<article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-
-      <article class="d-flex flex-row aside-three-small">
-        <img class="img-fluid" src="image/china.jpg" alt="News">
-        <div class="d-flex flex-column aside-three-text">
-          <a href="#">Viral Video Shows Plane Crashing Into Water Near Ocean City</a>
-        </div>
-      </article>
-      </div>
-
-    </article>
-
-
-
-
-
-
-
-</article>
+           <div class="media">
+           <img class="mr-3" src="image/china.jpg" alt="Generic placeholder image">
+           <div class="media-body">
+           <a class="mt-0" href="#">Ocasio-Cortez Slams House GOP for Endorsing Trump Tweets</a>
+           </div>
+           </div>
+         </article>
 
 
 
@@ -1101,8 +1000,8 @@
 
 <!-- SIXTH CONTENT -->
 
-<section class="row sixth-content col-sm-12">
-  <div class="col-lg-12 col-md-12 col-sm-12 buttons-subscribe">
+<section class="row sixth-content col-sm-12 my-3">
+  <div class="col-lg-12 col-md-12 col-sm-12 buttons-subscribe ">
   <div class="row two-links">
     <div class="col-lg-6 col-md-6 col-sm-6 another-content-link d-flex justify-content-start">
    <a href="#">SUBSCRIBE</a>
@@ -1112,32 +1011,27 @@
     </div>
   </div>
   </div>
-  <article class="col-lg-4 d-flex">
-    <div class="book1">
-      <img class="img-fluid" src="image/book1.jpg" alt="book">
+  <article class="col-sm-12 col-md-8 col-lg-8 d-flex flex-row mt-3">
+    <div>
+<img  src="image/book1.jpg" alt="book">
     </div>
-    <div class="book2">
-      <img class="img-fluid" src="image/book2.jpg" alt="book">
-    </div>
+    <div class="pl-3 ">
+<p >In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+<p >All Access + Weekly Delivery.</p>
+<p >Choose A Membership That's Perfect for You!</p>
+<button type="button" class="btn btn-danger">SUBSCRIBE</button>
+  </div>
   </article>
 
 
-<article class="col-lg-4">
 
-<p class="before-end">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
-<p class="before-end-two">All Access + Weekly Delivery.</p>
-<p class="before-end-three">Choose A Membership That's Perfect for You!</p>
-<button type="button" class="btn btn-danger">SUBSCRIBE</button>
-
-
-</article>
-<article class="col-lg-4">
+<article class="col-sm-12 col-md-4 col-lg-4 mt-3">
   <div class="d-flex flex-row">
   <div class="background-img">
 
 
   </div>
-  <div class="d-flex flex-column  before-end-text ml-auto mt-auto mb-auto">
+  <div class="d-flex flex-column  before-end-text ml-2 ">
    <p class="before-end  ">Daily Briefing</p>
 
 <p class="before-end-two">Take back your inbox. Sign up for our newsletter and start making sense of the world around you..</p>
@@ -1149,67 +1043,110 @@
 </article>
 
 </section>
-<footer class="row ">
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    <div class="d-flex flex-row footer-title justify-content-end">
-    <h1>Newsweek</h1>
-    <p> &copy;2019 NEWSWEEK</p>
-    </div>
-  </div>
-<article class="col-lg-6 ">
-  <div class="d-flex flex-row col-sm-12 justify-content-end  icons">
-  <i class="fab fa-facebook fa-2x"></i>
-  <i class="fab fa-twitter fa-2x" ></i>
-  <i class="fab fa-instagram fa-2x"></i>
-  <i class="fab fa-linkedin-in fa-2x"></i>
+<footer class="container-fluid bg-white pt-4">
+      <article class="row justify-content-between align-items-end border-bottom pb-1 mx-3 ">
+        <div class="col-lg-8 row justify-content-start align-items-end">
+          <h1 class="px-2 text-danger font-weight-bold mb-0">
+            Newsweek
+          </h1>
+          <span class="px-2 text-uppercase text-black-50">
+            © 2019 NEWSWEEK
+          </span>
+        </div>
+        <div class="col-lg-4 pt-2 px-0"  style="font-size: 18px">
+          <a class="px-2 text-black-50" href="#">
+            <i class="fab fa-lg fa-facebook"></i>
+          </a>
 
-  </div>
+          <a class="px-2 text-black-50" href="#">
+            <i class="fab fa-lg fa-twitter"></i>
+          </a>
 
-</article>
+          <a class="px-2 text-black-50" href="#">
+            <i class="fab fa-lg fa-instagram"></i>
+          </a>
 
-
-  <article class="col-lg-8 col-md-8 col-sm-12  last-footer-links">
-    <article class="first-footer-links">
-      <a href="#">About Us</a>
-      <a href="#">Corrections</a>
-        <a href="#">Contact Us
-</a>
-        <a href="#">Editorial Guidelines</a>
-        <a href="#">Advertise
-</a>
-        <a href="#">Copyright</a>
+          <a class="px-2 text-black-50" href="#">
+            <i class="fab fa-lg fa-tumblr"></i>
+          </a>
+          <a class="px-2 text-black-50" href="#">
+            <i class="fab fa-lg fa-linkedin-in"></i>
+          </a>
+        </div>
       </article>
-      <article class="second-footer-links">
-        <a href="#">Terms & Conditions</a>
-      <a href="#">Privacy Policy
-</a>
-        <a href="#">Cookie Policy
-</a>
-        <a href="#">Terms of Sale</a>
-        <a href="#">Archive
+      <article class="row justify-content-between px-2 py-1">
+        <ul class="list-inline col-lg-8 d-flex flex-wrap">
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">About Us</a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Corrections </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Contact Us </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Editorial Guidelines </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Advertise </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Copyright </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Terms & Conditions </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Privacy Policy </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Cookie Policy </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Terms of Sale </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Archive </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 border-right">
+            <a class="text-black-50" href="#">Announcements </a>
+          </li>
+          <li class="list-inline-item px-1 my-2 ">
+            <a class="text-black-50" href="#">Consent preferences </a>
+          </li>
+        </ul>
+        <article class="col-lg-4 d-flex flex-nowrap align-items-baseline">
+          <p class="px-2 py-1 text-black-50">
+            Editions:
+          </p>
 
-</a>
-        <a href="#">Announcements</a>
-
+          <ul class="list-inline d-flex flex-wrap">
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">U.S.Edition</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">Middle East</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">日本</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">한국</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">Pakistan</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 border-right">
+              <a class="text-black-50" href="#">Polska</a>
+            </li>
+            <li class="list-inline-item px-1 my-2 mx-0 ">
+              <a class="text-black-50" href="#">Romania</a>
+            </li>
+          </ul>
+        </article>
       </article>
-
-    <div class="third-footer-links">
-      <a href="#">Consent preferences</a>
-    </div>
-  </article>
-
-  <article class="col-lg-4 col-md-4 col-sm-12">
-    <p class="second-last">Editions: <a href="#">U.S. Edition</a><a href="#">日本</a><a href="#">한국</a><a href="#">
-Pakistan</a></p>
-<div class="second-last-end">
-  <a href="#">Polska</a>
-  <a class="rom" href="#">Romania</a>
-</div>
-
-  </article>
-
-</footer>
-
+    </footer>
     </main><!-- /.container -->
 
     <!-- Bootstrap core JavaScript

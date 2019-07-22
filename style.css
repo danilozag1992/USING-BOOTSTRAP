@@ -113,7 +113,7 @@ main{
 	font-size: 14px;
 	color: black;
 	font-weight: 900;
-	    width: 100%;
+	    width: 70%;
 text-decoration: none;
 }
 
@@ -391,7 +391,7 @@ color: black;
 
 
 .first-column .woman-pic{
-padding-top: 25px;
+margin-top: 25px;
 }
 /*STYLING OF SIXTH CONTENT*/
 

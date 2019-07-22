@@ -1,0 +1,46 @@
+#header1 {
+  display: none;
+}
+
+#header2 {
+  display: block;
+  transition: top 1s;
+}
+
+.nav-link{
+	color: black;
+}
+
+a {
+font-size: 17px;
+font-weight: 900;
+  color: black;
+}
+
+
+a:hover {
+  text-decoration: underline red;
+  color: black !important;
+}
+.logo{
+  width: 30px;
+  height: 40px;
+}
+.before-end-text{
+  width: 50%;
+}
+.background-img{
+	width: 50%;
+	height: 300px;
+	background:url("image/background.gif");
+	background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.another-content-link{
+  width: 50%;
+}
+h5{
+  font-size: 15px;
+font-weight: 900;
+}
