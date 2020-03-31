@@ -3,5 +3,5 @@ In this project, i’ll get a chance to try out Twitter’s Bootstrap framework 
 [Newsweek](https://www.newsweek.com/)
 
 ##Developer
-[Danilo Zagarcanin ](https://github.com/danilozag1992)
+[Danilo Zagarcanin ](https://github.com/danilozag1992) [(Email)](mailto:danilozagarcanin@gmail.com)
 
