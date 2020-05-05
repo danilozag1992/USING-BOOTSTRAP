@@ -1,6 +1,6 @@
 # BOOTSTRAP
 
-The main purpose of this project is to use Bootstrap framework by building a site that actually uses it- Newsweek.
+In this project, I’ll get a chance to try out Twitter’s Bootstrap framework by building a site that uses it – Newsweek.
 [NewsWeek ](https://www.newsweek.com/)
 
 
@@ -24,6 +24,7 @@ Give a ⭐️ if you like this project!
 
 
 ## Usage 
+
 #### Clone this repository
 ```sh
 $ git clone https://github.com/danilozag1992/USING-BOOTSTRAP.git
