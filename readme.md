@@ -22,6 +22,17 @@ In this project, i’ll get a chance to try out Twitter’s Bootstrap framework 
 
 Give a ⭐️ if you like this project!
 
+
+## Usage 
+#### Clone this repository
+```sh
+$ git clone https://github.com/danilozag1992/USING-BOOTSTRAP.git
+```
+#### CD in that directory
+```sh
+$ cd USING-BOOTSTRAP
+```
+
 ##Developer
 [Danilo Zagarcanin ](https://github.com/danilozag1992) [(Email)](mailto:danilozagarcanin@gmail.com)
 
