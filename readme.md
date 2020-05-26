@@ -34,6 +34,8 @@ $ git clone https://github.com/danilozag1992/USING-BOOTSTRAP.git
 $ cd USING-BOOTSTRAP
 ```
 
-##Developer
-[Danilo Zagarcanin ](https://github.com/danilozag1992) [(Email)](mailto:danilozagarcanin@gmail.com)
+## Contact
+[Email](mailto:danilozagarcanin@gmail.com)
+[Linkedin](https://www.linkedin.com/in/danilo-zagarcanin-88169b185/)
+[Twitter](https://twitter.com/danilo96061514)
 
